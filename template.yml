@@ -30,4 +30,4 @@ Resources:
       FunctionName: put_topics_information
       Handler: index.handler
       Runtime: python3.8
-      Description: 'PUT /api/v1/topics'
+      Description: 'PUT /api/v1/topics/{topicID}'
