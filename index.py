@@ -33,8 +33,8 @@ def handler(event, context):
             'isBase64Encoded': False,
             'statusCode': 200,
             'headers': {
-              'Content-Type': 'application/json',
-              'Access-Control-Allow-Origin': '*'
+              'Access-Control-Allow-Origin': '*',
+              'Content-Type': 'application/json'
             },
             'body': json.dumps(body)
             }
